@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ body::before {
     position: fixed;
     height: 100%;
     z-index: 1;
-    background: url(background\ image.png) repeat-x;
+    background: url('background_image.png') repeat-x;
 
 }
 
@@ -54,7 +54,7 @@ input+label {
     display: block;
     z-index: 5;
     transform: translate(-50%, -50%);
-    background: url("bird image 2.jpeg") no-repeat left center;
+    background: url('bird_image_2.jpeg') no-repeat left center;
     background-position: -138px 0;
 }
 
@@ -68,22 +68,22 @@ input:checked+label {
 
 .duck:nth-last-of-type(1) {
     animation: duckfly 10s linear 1s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 .duck:nth-last-of-type(2) {
     animation: duckfly 20s linear 2s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 .duck:nth-last-of-type(3) {
     animation: duckfly 30s linear 3s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 .duck:nth-last-of-type(4) {
     animation: duckfly 40s linear 4s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 .duck:nth-last-of-type(5) {
@@ -93,12 +93,12 @@ input:checked+label {
 
 .duck:nth-last-of-type(6) {
     animation: duckfly 60s linear 6s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 .duck:nth-last-of-type(7) {
     animation: duckfly 70s linear 7s infinite;
-    cursor: url(gunpointerimage.png), text;
+    cursor: url('gunpointerimage.png'), text;
 }
 
 
@@ -123,7 +123,7 @@ input:checked+label {
 }
 
 .Score::before {
-    content: "Score:";
+    content: "Score: ";
     display: inline-block;
     margin: 10px;
 }
